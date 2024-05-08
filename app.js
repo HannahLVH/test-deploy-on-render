@@ -23,7 +23,7 @@ const passport = require("passport");
 
 app.use(morgan("dev"));
 
-//---------------------------------------
+//----------------------------------------
 //Define the routing variable for authorsRoutes
 const booksRoutes = require('./routes/booksRouter');
 const authorsRoutes = require('./routes/authorsRouter');
